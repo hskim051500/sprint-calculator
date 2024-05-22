@@ -14,7 +14,7 @@ function calculate(n1, operator, n2) {
 }
 
 buttons.addEventListener('click', function (event) {
-  // 버튼을 눌렀을 때 작동하는 함수입니다.
+  // 버튼을 눌렀을 때 작동하는 함수입니다.필수입니다.
 
   const target = event.target; // 클릭된 HTML 엘리먼트의 정보가 저장되어 있습니다.
   const action = target.classList[0]; // 클릭된 HTML 엘리먼트에 클레스 정보를 가져옵니다.
